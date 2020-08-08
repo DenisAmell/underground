@@ -1,0 +1,142 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+}
+.header{
+  max-width: 100%;
+  background: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.krein{
+  text-align: center;
+  max-width: 100%;
+  border: 10px solid #000;
+  background: purple;
+  color: #fff;
+  margin-top: 15px;
+}
+.krein:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+.urod{
+  margin: 0;
+}
+.bit{
+  color: cyan;
+}
+.krupa{
+  text-align: center;
+  max-width: 100%;
+  border: 10px solid yellowgreen;
+  background: orange;
+  color: purple;
+  margin-top: 10px;
+}
+.krupa:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+.doter-title{
+  margin: 0;
+}
+.doter-text{
+  color: cyan;
+}
+.sema{
+  text-align: center;
+  max-width: 100%;
+  border: 10px solid blue;
+  background: green;
+  color: Red;
+  margin-top: 10px;
+}
+.sema:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+.sema-title{
+  margin: 0;
+}
+.sema-text{
+  color: cyan;
+}
+.nikit{
+  text-align: center;
+  max-width: 100%;
+  border: 10px solid #ccc;
+  background: #000;
+  color: yellow;
+  margin-top: 10px;
+}
+.nikit:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+.nikit-title{
+  margin: 0;
+}
+.nikit-text{
+  color: cyan;
+}
+.den{
+  text-align: center;
+  max-width: 100%;
+  border: 10px solid red;
+  background: blue;
+  color: dark;
+  margin-top: 10px;
+}
+.den:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+.den-title{
+  margin: 0;
+}
+.den-text{
+  color: cyan;
+}
+.krain-img{
+  max-width: 100%;
+  opacity: 0;
+}
+.krain-img.active{
+  opacity: 1;
+  transform: translate(0px, -140%);
+  transition: all 0.8s ease 0s;
+}
+.krupa-img{
+  max-width: 100%;
+  opacity: 0;
+}
+.krupa-img.active{
+  opacity: 1;
+  transform: translate(0px, -200%);
+  transition: all 0.8s ease 0s;
+}
+.sema-img{
+  max-width: 100%;
+  opacity: 0;
+}
+.sema-img.active{
+  opacity: 1;
+  transform: translate(0px, -280%);
+  transition: all 0.8s ease 0s;
+}
+.nikit-img{
+  max-width: 100%;
+  opacity: 0;
+}
+.nikit-img.active{
+  opacity: 1;
+  transform: translate(0px, -380%);
+  transition: all 0.8s ease 0s;
+}
+.den-img{
+  max-width: 100%;
+  opacity: 0;
+}
+.den-img.active{
+  opacity: 1;
+  transform: translate(0px, -440%);
+  transition: all 0.8s ease 0s;
+}
