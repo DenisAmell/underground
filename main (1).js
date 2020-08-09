@@ -7,6 +7,7 @@ const denImg = document.querySelector('.den-img');
 const close = document.querySelectorAll('.close');
 const bruh = document.querySelector('.bruh');
 const bruhText = document.querySelector('.bruh-text');
+const text = document.querySelector('.text');
 
 buttonJsBtn.forEach((btn, i) => {
   btn.addEventListener('click', () => {
@@ -55,9 +56,20 @@ close.addEventListener('click', () => {
   semaImg.classList.remove('active');
   nikitImg.classList.remove('active');
   denImg.classList.remove('active');
+  text.classList.remove('active');
 });
 });
 
+const ladno = document.querySelector('.ladno');
+
 bruh.addEventListener('click', () => {
   bruhText.innerHTML = "Нет блять, брух";
+  ladno.classList.add('active');
 });
+ladno.addEventListener('click', () => {
+  ladno.innerHTML = "ТЕКСТ";
+  text.classList.add('active');
+});
+
+
+
