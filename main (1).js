@@ -17,6 +17,7 @@ buttonJsBtn.forEach((btn, i) => {
       semaImg.classList.remove('active');
       nikitImg.classList.remove('active');
       denImg.classList.remove('active');
+      text.classList.remove('active');
     }
     if (i === 1) {
       krupaImg.classList.add('active');
@@ -24,6 +25,7 @@ buttonJsBtn.forEach((btn, i) => {
       semaImg.classList.remove('active');
       nikitImg.classList.remove('active');
       denImg.classList.remove('active');
+      text.classList.remove('active');
     }
     if (i === 2) {
       semaImg.classList.add('active');
@@ -31,6 +33,7 @@ buttonJsBtn.forEach((btn, i) => {
       krupaImg.classList.remove('active');
       nikitImg.classList.remove('active');
       denImg.classList.remove('active');
+      text.classList.remove('active');
     }
     if (i === 3) {
       nikitImg.classList.add('active');
@@ -38,6 +41,7 @@ buttonJsBtn.forEach((btn, i) => {
       krainImg.classList.remove('active');
       krupaImg.classList.remove('active');
       denImg.classList.remove('active');
+      text.classList.remove('active');
     }
     if (i === 4) {
       denImg.classList.add('active');
@@ -45,6 +49,7 @@ buttonJsBtn.forEach((btn, i) => {
       krainImg.classList.remove('active');
       krupaImg.classList.remove('active');
       nikitImg.classList.remove('active');
+      text.classList.remove('active');
     }
   });
 });
@@ -69,6 +74,11 @@ bruh.addEventListener('click', () => {
 ladno.addEventListener('click', () => {
   ladno.innerHTML = "ТЕКСТ";
   text.classList.add('active');
+  krainImg.classList.remove('active');
+  krupaImg.classList.remove('active');
+  semaImg.classList.remove('active');
+  nikitImg.classList.remove('active');
+  denImg.classList.remove('active');
 });
 
 
